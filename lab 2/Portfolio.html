@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mano asmeninė svetainė</title>
+  <meta name="description" content="Asmeninė svetainė su informacija apie mane, mano CV ir atliktų darbų portfeliu.">
+  <meta name="keywords" content="asmeninis puslapis, CV, portfolio, darbai, kūryba">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Sukūrė: Jonas Kučinskas -->
+</head>
+
+<body>
+
+  <!-- Apie skiltis -->
+  <section id="apie">
+    <h1>Apie mane</h1>
+    <p>Esu kūrybiškas specialistas, turintis patirties įvairiose srityse. Mano tikslas – pasiekti puikių rezultatų ir teikti aukštos kokybės paslaugas.</p>
+    <img src="assets/img/as.jpg" alt="Mano nuotrauka" width="200" height="200">
+  </section>
+
+  <!-- Aprašymo (CV) skiltis -->
+  <section id="cv">
+    <h2>CV</h2>
+    <h3>Darbo patirtis</h3>
+    <ul>
+      <li><strong>Harju Elekter</strong> - Praktikantas, 2021-2022</li>
+    </ul>
+    <h3>Išsilavinimas</h3>
+    <ul>
+      <li><strong>VVGTU</strong> - Informacinių sistemų inžinerija, 2023-2024</li>
+    </ul>
+  </section>
+
+  <!-- Atliktų darbų (Portfolio) skiltis -->
+  <section id="portfolio">
+    <h2>Atlikti darbai</h2>
+    <div class="portfolio-item">
+      <img src="assets/img/car.jpg" alt="Projektas 1" width="250">
+      <p>Sukuriau pirmajį automobilį.</p>
+    </div>
+    <div class="portfolio-item">
+      <img src="assets/img/pc.jpg" alt="Projektas 2" width="250">
+      <p>Sukuriau pirmajį kompiuterį.</p>
+    </div>
+  </section>
+
+</body>
+    <!-- Paslaugų skiltis -->
+  <section id="paslaugos">
+    <h2>Paslaugos</h2>
+
+    <!-- Vaizdo įrašas su <video> -->
+    <div>
+      <h3>Video apie mūsų paslaugas</h3>
+      <video width="640" height="360" controls>
+        <source src="assets/img/karve.mp4" type="video/mp4">
+        Jūsų naršyklė nepalaiko vaizdo įrašo rodymo.
+      </video>
+    </div>
+
+    <!-- YouTube įrašas su <iframe> -->
+    <div>
+      <h3>Vaizdo įrašas iš YouTube</h3>
+      <iframe width="640" height="360" 
+              src="https://www.youtube.com/embed/OLY-I1pIhG8" 
+              frameborder="0" allowfullscreen>
+      </iframe>
+    </div>
+
+    <!-- Garso įrašas su <audio> -->
+    <div>
+      <h3>Garso įrašas apie mūsų paslaugas</h3>
+      <audio controls>
+        <source src="assets/img/file_example_MP3_700KB.mp3" type="audio/mpeg">
+        Jūsų naršyklė nepalaiko garso įrašo rodymo.
+      </audio>
+    </div>
+
+  </section>
+
+</body>
+</html>
