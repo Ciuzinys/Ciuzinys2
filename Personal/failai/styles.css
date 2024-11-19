@@ -1,0 +1,85 @@
+/* Fonts and text styling */
+h1, h2, h3, .sitename {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Links and buttons styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Margins, paddings, and borders */
+.section {
+    padding: 50px 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+div {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+}
+
+/* Dark/Light mode */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body.dark-mode {
+    --bg-color: #121212;
+    --text-color: #f1f1f1;
+}
